@@ -1,0 +1,45 @@
+feature：自分のローカル作業リポジトリ
+staging：テストサーバーに上がる直前のデータがあるリポジトリ
+master：本番環境にアップ済みのデータがあるリポジトリ
+https://backlog.com/ja/git-tutorial/stepup/01/
+https://qiita.com/AnRi1202/items/c1cdc8d212f8c87525d7
+
+リポジトリ：ファイルやディレクトリの状態を記録する場所
+　→ローカルリポジトリ：ユーザ一人が利用するために自分のローカル上に配置するリポジトリ
+　→リモートリポジトリ：専用のサーバに配置して複数人で共有するためのリポジトリ
+https://backlog.com/ja/git-tutorial/intro/02/
+
+ブランチ：作業を複数に分岐できる→コミットを示すポインタの役割
+https://qiita.com/ymzkjpx/items/00ff664da60c37458aaa#git%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E7%AE%A1%E7%90%86%E3%81%AE%E4%BB%95%E7%B5%84%E3%81%BF
+
+
+sourcetreeのブランチの切り方なのですが、作業開始時は必ず「master」から作業ブランチを切るようにしてください。
+・staging→テストサーバーに上がっているデータ（テストアップ中のデータ）
+・master→本番サーバーに上がっているデータ（本アップ済みのデータ）
+・feature→ローカル作業用のブランチ（各自で管理） の運用で、クリカフェでは管理しています。
+staging、masterにプッシュしたものは必ずサーバーに上がっていないといけないので、 
+テストアップまではローカルの作業ブランチ（feature）でコミットするだけにしておいてください。
+（by中森さん）
+
+
+Githubリカバリーコード
+8af68-5c14d
+9aef6-1969d
+a2604-1240d
+09fea-a6e99
+50580-5a8c9
+90aaa-10e4b
+79ca4-c30a2
+9151c-7d7ea
+089dd-a23ff
+c1344-30c46
+65e7c-24840
+5f1b8-18cb9
+d1538-0fd4e
+e3d78-950c7
+87a38-c1165
+1cf34-e196d
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL8bUxTN0Xe02w3ZFe7bgeVrlf6/D1czbkZUhElSioBp
+
+https://zenn.dev/chickpeas/articles/633a40c346cc5f
