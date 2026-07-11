@@ -1,0 +1,230 @@
+キラキラ？させるCSS（例：範囲指定ver）
+.shine-banner {
+position: relative;
+display: inline-block;
+img {
+display: block;
+width: 100%;
+height: auto;
+}
+}
+
+.shine-area {
+position: absolute;
+/* 光らせたい位置 */
+top: 30%;
+right: 0%;
+/* 光らせたい範囲 */
+width: 145px;
+height: 37px;
+overflow: hidden;
+pointer-events: none;
+}
+
+.shine-area::before {
+content: '';
+position: absolute;
+top: 0;
+left: -80%;
+width: 30%;
+height: 100%;
+background: linear-gradient(
+-45deg,
+rgba(255, 255, 255, 0) 0%,
+rgba(255, 255, 255, 0) 27%,
+rgba(255, 255, 255, 0.2) 39%,
+rgba(255, 255, 255, 0.7) 57%,
+rgba(255, 255, 255, 0) 73%,
+rgba(255, 255, 255, 0) 100%
+);
+position: absolute;
+pointer-events: none;
+z-index: 1;
+animation: shine 5s infinite;
+}
+
+@keyframes shine {
+0% {
+left: -80%;
+}
+20% {
+left: 130%;
+}
+100% {
+left: 130%;
+}
+}
+
+@media screen and (max-width: 767px) {
+.shine-area {
+position: absolute;
+/* 光らせたい位置 */
+top: auto;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+/* 光らせたい範囲 */
+width: 40%;
+height: 55%;
+overflow: hidden;
+pointer-events: none;
+}
+
+.shine-area::before {
+content: '';
+position: absolute;
+/* 光らせたい位置 */
+top: auto;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+
+width: 40%;
+height: 55%;
+background: linear-gradient(
+-45deg,
+rgba(255, 255, 255, 0) 0%,
+rgba(255, 255, 255, 0) 27%,
+rgba(255, 255, 255, 0.2) 39%,
+rgba(255, 255, 255, 0.7) 57%,
+rgba(255, 255, 255, 0) 73%,
+rgba(255, 255, 255, 0) 100%
+);
+position: absolute;
+pointer-events: none;
+z-index: 1;
+animation: shine 5s infinite;
+}
+}
+
+
+Figma
+https://necco.inc/note/42375/
+https://help.figma.com/hc/ja/articles/360038663154-%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%A7%E5%86%8D%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90
+
+
+SCSS/mixin
+https://qiita.com/Yasushi-Mo/items/68e40dbdd976c08e164a
+https://dexall.co.jp/articles/?p=1578
+https://qiita.com/shinshingodmt/items/637cf9e5c6660509c460
+
+
+sourcetreeのブランチの切り方なのですが、作業開始時は必ず「master」から作業ブランチを切るようにしてください。
+・staging→テストサーバーに上がっているデータ（テストアップ中のデータ）
+・master→本番サーバーに上がっているデータ（本アップ済みのデータ）
+・feature→ローカル作業用のブランチ（各自で管理） の運用で、クリカフェでは管理しています。
+staging、masterにプッシュしたものは必ずサーバーに上がっていないといけないので、 
+テストアップまではローカルの作業ブランチ（feature）でコミットするだけにしておいてください。
+
+
+Githubリカバリーコード
+8af68-5c14d
+9aef6-1969d
+a2604-1240d
+09fea-a6e99
+50580-5a8c9
+90aaa-10e4b
+79ca4-c30a2
+9151c-7d7ea
+089dd-a23ff
+c1344-30c46
+65e7c-24840
+5f1b8-18cb9
+d1538-0fd4e
+e3d78-950c7
+87a38-c1165
+1cf34-e196d
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL8bUxTN0Xe02w3ZFe7bgeVrlf6/D1czbkZUhElSioBp
+
+https://zenn.dev/chickpeas/articles/633a40c346cc5f
+
+
+Backlogアカウント
+shusei@crecafe.co.jp
+PHaXm4gGfX%&
+
+
+Adobe CCアカウント
+cc2@crecafe.co.jp
+
+
+Teams朝会チャット
+https://teams.live.com/l/invite/FBA8hBSJEFsIBMDGg
+
+
+Cafelog 案ちゃん
+https://cafelog.t-serv.info/
+Takeichi
+orPhen13@
+
+
+チャットワーク
+twc3v5rz
+t8meyiwp
+etx4kora
+kog9zvx8
+gvk2ub6h
+2cj9o71e
+n2q9duzo
+p223z0ry
+l1d2d7du
+f8sdtn0n
+
+
+メールワイズアカウント
+https://crecafe.cybozu.com/
+ログイン名：takeichi
+パスワード：orPhen13@
+
+
+AIの性格
+カスタム指示
+機能的で明確な目的 前向きな視点で対応します。 
+必要に応じて、巧妙で素早いユーモアを織り交ぜます。
+正直でストレートな物言いをします。
+オブラートに包んだ回答はしません。
+必要に応じて、巧妙で素早いユーモアを織り交ぜます。
+あなたは事実確認を徹底する専門家で、鵜呑みにせず自分で調べて検証します。
+私はいつも正しいとは限りませんし、あなたも同じです。
+だからこそ、私たちは一緒に精度を高めることを重視します。
+<web_search_rules>
+- 事実が不確かな場合は推測せずWebで確認し、根拠に引用を付ける
+- 複数ソースで重要点をクロスチェックし、矛盾があれば整理して結論を出す
+- 追加調査の価値が逓減するまで掘る（ただし脱線はしない）
+- 質問で止めず、想定される意図を網羅して答える
+- 出力はMarkdownで、定義→要点→比較→具体例の順に整理
+</web_search_rules>
+
+あなたの性格？
+職業：不動産、ゴルフ場などのWebサイト運用会社の派遣社員、Webデザイナー兼コーダー
+性格：一応素直、誰にでも平等、変に自信家、疑い深い、深く考え過ぎる
+
+
+VSCode機能拡張
+Auto Rename Tag
+EvilInspector
+HTML CSS Support
+indent-rainbow
+Japanese Language Pack for Visual Studio Code
+Live Sass Compiler
+Material Icon Theme
+PHP Debug
+PHP Intelephense
+https://qiita.com/falya128/items/70e854ae7ca71567820b
+Prettier - Code formatter
+SCSS IntelliSense
+Live Preview
+zenkaku
+Highlight Matching Tag
+Trailing Spaces
+WebNative
+htmltagwrap
+CSS Peek
+SCSS Everywhere
+https://qiita.com/soramaru0862/items/bf91aa85580d1fe7ced5
+
+いらんかも？
+Claude Code for VS Code
+Codex – OpenAI’s coding agent
+Gradle for Java
