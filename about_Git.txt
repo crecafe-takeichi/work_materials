@@ -1,3 +1,5 @@
+クローン元のリポジトリにそのアカウントがプルリクエストを送るか、元のアカウントが承認しなければクローンができない？
+
 https://backlog.com/ja/git-tutorial/stepup/01/
 https://qiita.com/AnRi1202/items/c1cdc8d212f8c87525d7
 
@@ -11,5 +13,5 @@ https://qiita.com/ymzkjpx/items/00ff664da60c37458aaa#git%E3%81%AE%E3%83%95%E3%82
 
 https://zenn.dev/chickpeas/articles/633a40c346cc5f
 
-コミット差分をエクスポート（できてる？）
+コミット差分をエクスポート（できてる？？）
 https://qiita.com/az22/items/3157eda1741c38606d3e
