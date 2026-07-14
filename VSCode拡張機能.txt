@@ -1,0 +1,27 @@
+VSCode機能拡張
+Auto Rename Tag
+EvilInspector
+HTML CSS Support
+indent-rainbow
+Japanese Language Pack for Visual Studio Code
+Live Sass Compiler
+Material Icon Theme
+PHP Debug
+PHP Intelephense
+https://qiita.com/falya128/items/70e854ae7ca71567820b
+Prettier - Code formatter
+SCSS IntelliSense
+Live Preview
+zenkaku
+Highlight Matching Tag
+Trailing Spaces
+WebNative
+htmltagwrap
+CSS Peek
+SCSS Everywhere
+https://qiita.com/soramaru0862/items/bf91aa85580d1fe7ced5
+
+いらんかも？
+Claude Code for VS Code
+Codex – OpenAI’s coding agent
+Gradle for Java
