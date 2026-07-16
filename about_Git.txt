@@ -2,6 +2,9 @@
 
 クローン元のリポジトリにそのアカウントがプルリクエストを送るか、元のアカウントが承認しなければクローンができない？
 
+作業後のローカルリポジトリ（feature）はブランチを切ってから削除する。
+次に作業する際は、main or master、stagingから新規ブランチfeatureを作って作業の繰り返し
+
 https://backlog.com/ja/git-tutorial/stepup/01/
 https://qiita.com/AnRi1202/items/c1cdc8d212f8c87525d7
 
@@ -14,6 +17,14 @@ https://backlog.com/ja/git-tutorial/intro/02/
 https://qiita.com/ymzkjpx/items/00ff664da60c37458aaa#git%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E7%AE%A1%E7%90%86%E3%81%AE%E4%BB%95%E7%B5%84%E3%81%BF
 
 https://zenn.dev/chickpeas/articles/633a40c346cc5f
+
+GitHub運用方法
+https://blog.usize-tech.com/git-for-beginners-develop/
+https://blog.devplatform.techmatrix.jp/blog/introduction_to_git_3/
+https://zenn.dev/harper/articles/23e99cb6bd2043
+
+リポジトリ名変更
+https://docs.github.com/ja/repositories/creating-and-managing-repositories/renaming-a-repository
 
 コミット差分をエクスポート（できてる？？）
 https://qiita.com/az22/items/3157eda1741c38606d3e
