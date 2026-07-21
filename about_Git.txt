@@ -26,6 +26,9 @@ https://zenn.dev/harper/articles/23e99cb6bd2043
 リポジトリ名変更
 https://docs.github.com/ja/repositories/creating-and-managing-repositories/renaming-a-repository
 
+コミットできなくする
+https://qiita.com/hainare/items/81435ac6912f2976cc9f
+
 コミット差分をエクスポート（できてる？？）
 https://qiita.com/az22/items/3157eda1741c38606d3e
 
