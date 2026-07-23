@@ -7,3 +7,5 @@ https://qiita.com/ooo-lang/items/f067c34146f889179652
 DreamWeaver（_noteフォルダを作らせない）
 https://yusk.org/memo/dreamweaver/no_notes.html
 https://webnetamemo.com/coding/201612093986
+
+ああああ

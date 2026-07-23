@@ -37,5 +37,8 @@ https://www.i-ryo.com/entry/2018/11/28/221938
 https://findy-code.io/engineer-lab/github-challenge-04
 https://autoproject.nagoya/column/2961/
 
+GitHubでIssueの削除はできなくても、重複としてマークしたり、計画外としてクローズしたりはできる
+https://qiita.com/kskwtnk/items/6d3385ecfec3d2ffd650
+
 ブラウザでGitHub（コミット）
 https://blog.symdon.info/posts/1642239396/
